@@ -79,7 +79,6 @@ nav {
   position: fixed;
   bottom: 40px;
   left: 0;
-  z-index: 100;
 }
 
 nav ul {

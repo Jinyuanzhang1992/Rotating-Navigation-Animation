@@ -1,7 +1,11 @@
-const open = document.getElementById("open");
-const close = document.getElementById("close");
 const container = document.querySelector(".container");
+const buttonOpen = document.querySelector("#open");
+const buttonClose = document.querySelector("#close");
 
-open.addEventListener("click", () => container.classList.add("show-nav"));
+buttonOpen.addEventListener("click", () => {
+  container.classList.add("show-nav");
+});
 
-close.addEventListener("click", () => container.classList.remove("show-nav"));
+buttonClose.addEventListener("click", () => {
+  container.classList.remove("show-nav");
+});
